@@ -64,7 +64,8 @@
 
   .rating li {
     position: relative;
-    background: #f4f4f4;
+    background: #202142;
+    color: white;
     width: 50px;
     height: 50px;
     padding: 10px;
@@ -88,8 +89,8 @@
   }
 
   .rating li:hover {
-    background: #ff6a95;
-    color: #fff;
+    background: orange;
+    color: #202142;
   }
 
   /* Make actual radio select invisible */
@@ -99,7 +100,7 @@
 
   /* Use the sibling select */
   [type='radio']:checked ~ label {
-    background: #ff6a95;
-    color: #fff;
+    background: orange;
+    color: #202142;
   }
 </style>
